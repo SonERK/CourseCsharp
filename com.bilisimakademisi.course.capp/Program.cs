@@ -57,12 +57,14 @@ namespace com.bilisimakademisi.course.capp
             //Console.WriteLine(_user2.FullName);
             #endregion
 
+            #region EnumExample
             Logger _logger = Logger.Database;
            
             if (_logger==Logger.SMS)
             {
                 //Sms At
             }
+            #endregion
         }
     }
 }
