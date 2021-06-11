@@ -3,19 +3,20 @@
 namespace com.bilisimakademisi.course.capp
 {
     class Program
-    {
-        
+    {        
         static void Main(string[] args)
-        {   /*Comment*/
+        {   /*
+             * Comment             
+             */
             //Console.WriteLine("Hello World!");
-
+           
             #region BuiltInTypes
             //bool isActive = false;
             //byte number = 255;
             //char character = '5';
-            //float number2 = 15;
-            //double number3 = 20;
-            //decimal number4 = 200;
+            //float number2 = 15.5;
+            //double number3 = 20.8;
+            //decimal number4 = 200.4;
             //int number5 = 2147483647;
             //short number6 = 2535;
             //object obj = "";
