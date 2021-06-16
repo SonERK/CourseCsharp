@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.bilisimakademisi.math.c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.bilisimakademisi.course.models", "com.bilisimakademisi.course.models\com.bilisimakademisi.course.models.csproj", "{F8BAC5F0-DAC4-4217-877D-411C2A729D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.bilisimakademisi.course.conditions", "com.bilisimakademisi.course.conditions\com.bilisimakademisi.course.conditions.csproj", "{1CB85E76-1004-4E4E-92F3-65E9A3827397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.bilisimakademisi.course.conditions", "com.bilisimakademisi.course.conditions\com.bilisimakademisi.course.conditions.csproj", "{1CB85E76-1004-4E4E-92F3-65E9A3827397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.bilisimakademisi.course.loops", "com.bilisimakademisi.course.loops\com.bilisimakademisi.course.loops.csproj", "{9E00A99C-9C73-4F7C-BCD9-EF8F4BAC7775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.bilisimakademisi.course.arrays", "com.bilisimakademisi.course.arrays\com.bilisimakademisi.course.arrays.csproj", "{45528255-EBF1-4F33-9EBC-EF1996C740BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{1CB85E76-1004-4E4E-92F3-65E9A3827397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB85E76-1004-4E4E-92F3-65E9A3827397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CB85E76-1004-4E4E-92F3-65E9A3827397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E00A99C-9C73-4F7C-BCD9-EF8F4BAC7775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E00A99C-9C73-4F7C-BCD9-EF8F4BAC7775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E00A99C-9C73-4F7C-BCD9-EF8F4BAC7775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E00A99C-9C73-4F7C-BCD9-EF8F4BAC7775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45528255-EBF1-4F33-9EBC-EF1996C740BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45528255-EBF1-4F33-9EBC-EF1996C740BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45528255-EBF1-4F33-9EBC-EF1996C740BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45528255-EBF1-4F33-9EBC-EF1996C740BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
