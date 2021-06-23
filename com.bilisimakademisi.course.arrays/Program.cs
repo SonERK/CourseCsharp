@@ -1,6 +1,8 @@
 ﻿using com.bilisimakademisi.course.arrays.Helpers;
 using com.bilisimakademisi.course.arrays.Model;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace com.bilisimakademisi.course.arrays
 {
@@ -8,6 +10,90 @@ namespace com.bilisimakademisi.course.arrays
     {
         static void Main(string[] args)
         {
+            List<string> classes = new List<string>();
+
+            classes.Add("1A");
+            classes.Add("1B");
+            classes.Add("1C");
+
+            classes.Remove("1B");
+
+            var users = new List<User>
+            {
+                new User { UserId = 1 },
+                new User { UserId = 2 },
+                new User { UserId = 3 },
+                new User { UserId = 4 }
+            };
+
+            //User usr = new User();
+
+            //users.Add(usr);
+
+            users.AddRange(users);
+
+            //var container = new List<User>();
+
+            //for (int i = 0; i < users.Count; i++)
+            //{
+            //    if (users[i].UserId == 1)
+            //    {
+            //        container.Add(users[i]);
+            //    }
+            //}
+
+           // var number = new int[2] { 1, 2 };
+
+            var container = users.Where(user => user.UserId == 1);
+
+            var result = users.Count(c => c.UserId == 1);
+
+            var isContain = users.Any(u=>u.UserId>2);
+
+            foreach (var item in container)
+            {
+                // string text = "User Id : " + item.UserId;
+
+                Console.WriteLine($"User Id: {item.UserId}");
+            }
+
+            #region GenericClass
+            //GenericArray<int> numbers = new GenericArray<int>();
+
+            //numbers.Add(1);
+            //numbers.Add(2);
+            //numbers.Add(3);
+            //numbers.Add(4);
+
+            //GenericArray<string> cities = new GenericArray<string>();
+
+            //cities.Add("Vancouver");
+            //cities.Add("Ohio");
+            //cities.Add("Ottawa");
+
+            //GenericArray<User> users = new GenericArray<User>();
+
+            //User user = new User();
+            //user.UserId = 1;
+
+            //User user2 = new User
+            //{
+            //    UserId = 2
+            //};
+
+            //var user3 = new User
+            //{
+            //    UserId = 3
+            //};
+
+            //users.Add(user);
+            //users.Add(user2);
+            //users.Add(user3);
+
+            #endregion
+
+            #region SimpleLoginExample
+
             // int n1,n2,n3,n4,total;
             //n1 = Convert.ToInt32(Console.ReadLine());
             //n2 = Convert.ToInt32(Console.ReadLine());
@@ -37,28 +123,30 @@ namespace com.bilisimakademisi.course.arrays
             //    names[i] = Console.ReadLine();
             //}
 
-            User[] users = new User[5];
+            //User[] users = new User[5];
 
-            for (int i = 0; i < 5; i++)
-            {
-                User user = new User();
-                user.FullName ="Soner " + i.ToString();
-                user.UserId = i;
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    User user = new User();
+            //    user.FullName ="Soner " + i.ToString();
+            //    user.UserId = i;
 
-                users[i] = user;
-            }
+            //    users[i] = user;
+            //}
 
-            UserHelper helper = new UserHelper();
+            //UserHelper helper = new UserHelper();
 
-            users = helper.ResizeArray(users);
-            users = helper.ResizeArray(users);
-            users = helper.ResizeArray(users);
-            users = helper.ResizeArray(users);
-            users = helper.ResizeArray(users);
-            users = helper.ResizeArray(users);
-            users = helper.ResizeArray(users);
+            //users = helper.ResizeArray(users);
+            //users = helper.ResizeArray(users);
+            //users = helper.ResizeArray(users);
+            //users = helper.ResizeArray(users);
+            //users = helper.ResizeArray(users);
+            //users = helper.ResizeArray(users);
+            //users = helper.ResizeArray(users);
 
             //Console.WriteLine(total);
+
+            #endregion
 
             Console.ReadLine();
         }
